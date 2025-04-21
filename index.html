@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>TurisAR - Tikal</title>
-  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TurisAR</title>
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
   <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-  <a-scene
-    mindar-image="imageTargetSrc: assets/markers/tikal.mind;"
-    color-space="sRGB"
+
+  <!-- Panel de información -->
+  <div id="info-panel" style="display: none;">
+    <strong id="titulo"></strong><br>
+    <span id="descripcion"></span><br>
+    <a id="web" href="#" target="_blank">Sitio web</a><br>
+    <a id="mapa" href="#" target="_blank">Ver en mapa</a>
+  </div>
+
+  <!-- Botón para filtro -->
+  <button id="filtro-btn">🎭 Usar Filtro</button>
+
+  <!-- Escena AR con todos los marcadores en sitios.mind -->
+  <a-scene 
+    mindar-image="imageTargetSrc: assets/markers/sitios.mind;" 
     embedded
-    renderer="colorManagement: true, physicallyCorrectLights"
     vr-mode-ui="enabled: false"
-    device-orientation-permission-ui="enabled: false"
-  >
-    <a-assets>
-      <img id="tikal" src="assets/images/tikal.jpeg" />
-    </a-assets>
-
+    device-orientation-permission-ui="enabled: false">
+    
+    <a-assets id="assets"></a-assets>
     <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
-
-    <a-entity mindar-image-target="targetIndex: 0">
-      <!-- Contenido que se mostrará al detectar el marcador -->
-      <a-image src="#tikal" position="0 0 0" width="1" height="0.6"></a-image>
-    </a-entity>
+    
+    <!-- Entidades generadas dinámicamente por JS -->
   </a-scene>
 
   <script src="scripts/main.js"></script>

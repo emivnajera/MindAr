@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar Sitio | TurisAR</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.7rem 1.5rem;
+      font-weight: bold;
+      background-color: #2196f3;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0d8ae3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>➕ Agregar Nuevo Sitio</h1>
+
+  <form id="form-agregar">
+    <label>Nombre</label>
+    <input type="text" id="nombre" required>
+
+    <label>Descripción</label>
+    <textarea id="descripcion" rows="3" required></textarea>
+
+    <label>Nombre Archivo Imagen</label>
+    <input type="text" id="archivo" required>
+
+    <label>Marcador (.mind)</label>
+    <input type="text" id="marcador" required>
+
+    <label>Enlace a sitio web</label>
+    <input type="url" id="web" required>
+
+    <label>Ubicación (Google Maps)</label>
+    <input type="url" id="ubicacion" required>
+
+    <button type="submit">💾 Guardar y volver</button>
+  </form>
+
+  <script src="scripts/agregar.js"></script>
+</body>
+</html>

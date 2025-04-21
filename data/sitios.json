@@ -1,13 +1,129 @@
 [
-    {
-      "id": "tikal",
-      "nombre": "Tikal",
-      "descripcion": "Antigua ciudad maya en Petén.",
-      "imagen": "assets/images/tikal.jpg",
-      "marcador": "assets/markers/tikal.mind",
-      "ubicacion": "https://goo.gl/maps/...",
-      "sitioWeb": "https://institutodeantropologia...",
-      "filtro": "assets/filters/filtro-tikal.glb"
-    }
-  ]
-  
+  {
+    "id": "tikal",
+    "nombre": "Tikal",
+    "descripcion": "Centro ceremonial maya en Petén, Patrimonio Mundial.",
+    "imagen": "assets/images/00-tikal.jpeg",
+    "marcador": "assets/markers/tikal.mind",
+    "web": "https://whc.unesco.org/en/list/64/",
+    "ubicacion": "https://maps.app.goo.gl/awLf8qPVxEXZxpNJ9"
+  },
+  {
+    "id": "semuc",
+    "nombre": "Semuc Champey",
+    "descripcion": "Piscinas naturales sobre un río subterráneo en Alta Verapaz.",
+    "imagen": "assets/images/01-semuc.jpg",
+    "marcador": "assets/markers/semuc.mind",
+    "web": "https://aprende.guatemala.com/historia/geografia/parque-nacional-semuc-champey-en-guatemala/",
+    "ubicacion": "https://maps.app.goo.gl/NVmFBNvH6ByhgffZA"
+  },
+  {
+    "id": "atitlan",
+    "nombre": "Lago de Atitlán",
+    "descripcion": "Lago volcánico rodeado de pueblos mayas y volcanes.",
+    "imagen": "assets/images/02-atitlan.jpeg",
+    "marcador": "assets/markers/atitlan.mind",
+    "web": "https://aprende.guatemala.com/historia/geografia/lago-de-atitlan-guatemala/",
+    "ubicacion": "https://maps.app.goo.gl/8AAehTjUEUjAan3U7"
+  },
+  {
+    "id": "quirigua",
+    "nombre": "Quiriguá",
+    "descripcion": "Zona arqueológica con las estelas mayas más altas.",
+    "imagen": "assets/images/03-quirigua.jpg",
+    "marcador": "assets/markers/quirigua.mind",
+    "web": "https://whc.unesco.org/en/list/149/",
+    "ubicacion": "https://maps.app.goo.gl/Lst7mRCv1iUiY9226"
+  },
+  {
+    "id": "esquipulas",
+    "nombre": "Basílica de Esquipulas",
+    "descripcion": "Importante sitio de peregrinación religiosa.",
+    "imagen": "assets/images/04-esquipulas.jpg",
+    "marcador": "assets/markers/esquipulas.mind",
+    "web": "https://aprende.guatemala.com/cultura-guatemalteca/patrimonios/basilica-de-esquipulas/",
+    "ubicacion": "https://maps.app.goo.gl/B1XDWvbRDGeGGrz5A"
+  },
+  {
+    "id": "antigua",
+    "nombre": "Antigua Guatemala",
+    "descripcion": "Ciudad colonial declarada Patrimonio Mundial.",
+    "imagen": "assets/images/05-antigua.jpg",
+    "marcador": "assets/markers/antigua.mind",
+    "web": "https://whc.unesco.org/en/list/65/",
+    "ubicacion": "https://maps.app.goo.gl/ycmrF1XouDWEWzdw6"
+  },
+  {
+    "id": "iximche",
+    "nombre": "Iximché",
+    "descripcion": "Capital del reino kaqchikel, con plazas ceremoniales.",
+    "imagen": "assets/images/06-iximche.jpg",
+    "marcador": "assets/markers/iximche.mind",
+    "web": "https://es.wikipedia.org/wiki/Iximch%C3%A9",
+    "ubicacion": "https://maps.app.goo.gl/w5oEsTVQrYQ54dX89"
+  },
+
+  {
+    "id": "chichen-itza",
+    "nombre": "Chichén Itzá",
+    "descripcion": "Centro ceremonial maya con la pirámide de Kukulkán.",
+    "imagen": "assets/images/07-chichen.jpeg",
+    "marcador": "assets/markers/chichen.mind",
+    "web": "https://whc.unesco.org/en/list/483/",
+    "ubicacion": "https://maps.app.goo.gl/JeknBW4qyzWcD4xM8"
+  },
+  {
+    "id": "cristo-redentor",
+    "nombre": "Cristo Redentor",
+    "descripcion": "Estatua icónica de Río de Janeiro, símbolo de Brasil.",
+    "imagen": "assets/images/08-cristo.jpg",
+    "marcador": "assets/markers/cristo.mind",
+    "web": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+    "ubicacion": "https://maps.app.goo.gl/fPDP9zdZZHwcAiGz6"
+  },
+  {
+    "id": "coliseo",
+    "nombre": "Coliseo de Roma",
+    "descripcion": "Anfiteatro romano, símbolo del Imperio Romano.",
+    "imagen": "assets/images/09-coliseo.jpg",
+    "marcador": "assets/markers/coliseo.mind",
+    "web": "https://whc.unesco.org/en/list/91/",
+    "ubicacion": "https://maps.app.goo.gl/7GKnzYJb9QmhcgSq9"
+  },
+  {
+    "id": "petra",
+    "nombre": "Petra",
+    "descripcion": "Ciudad tallada en piedra en Jordania.",
+    "imagen": "assets/images/10-petra.jpg",
+    "marcador": "assets/markers/petra.mind",
+    "web": "https://whc.unesco.org/en/list/326/",
+    "ubicacion": "https://maps.app.goo.gl/3chccGmbLPNEWgmk7"
+  },
+  {
+    "id": "machu-picchu",
+    "nombre": "Machu Picchu",
+    "descripcion": "Ciudadela incaica en los Andes peruanos.",
+    "imagen": "assets/images/11-machu.jpg",
+    "marcador": "assets/markers/machu.mind",
+    "web": "https://whc.unesco.org/en/list/274/",
+    "ubicacion": "https://maps.app.goo.gl/obrN4z8vd4FTtd96A"
+  },
+  {
+    "id": "muralla-china",
+    "nombre": "Gran Muralla China",
+    "descripcion": "Fortificación milenaria visible desde el espacio.",
+    "imagen": "assets/images/12-muralla.jpg",
+    "marcador": "assets/markers/muralla.mind",
+    "web": "https://whc.unesco.org/en/list/438/",
+    "ubicacion": "https://maps.app.goo.gl/gctaseccoennowni9"
+  },
+  {
+    "id": "taj-mahal",
+    "nombre": "Taj Mahal",
+    "descripcion": "Mausoleo blanco en India, símbolo de amor eterno.",
+    "imagen": "assets/images/13-tajmahal.jpeg",
+    "marcador": "assets/markers/tajmahal.mind",
+    "web": "https://whc.unesco.org/en/list/252/",
+    "ubicacion": "https://maps.app.goo.gl/oJMBMNeRuna5eiAEA"
+  }
+]

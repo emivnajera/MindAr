@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TurisAR Admin</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 2rem;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e0e0e0;
+    }
+
+    td a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    td a:hover {
+      text-decoration: underline;
+    }
+
+    .acciones {
+      text-align: center;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🛠️ Panel de Administración TurisAR</h1>
+
+<div style="text-align: center; margin-bottom: 1rem;">
+  <button onclick="window.location.href='agregar.html'" style="padding: 0.5rem 1rem;">
+    ➕ Agregar nuevo sitio
+  </button>
+  <button onclick="descargarJSON()" style="padding: 0.5rem 1rem; background: #2196f3; color: white; border: none; border-radius: 4px;">
+    💾 Descargar sitios.json
+  </button>
+</div>
+
+  
+
+  <table id="tabla-sitios">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Imagen</th>
+        <th>Web</th>
+        <th>Ubicación</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Cargado dinámicamente -->
+    </tbody>
+  </table>
+
+  <script src="scripts/admin.js"></script>
+</body>
+</html>

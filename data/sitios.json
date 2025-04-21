@@ -1,0 +1,13 @@
+[
+    {
+      "id": "tikal",
+      "nombre": "Tikal",
+      "descripcion": "Antigua ciudad maya en Petén.",
+      "imagen": "assets/images/tikal.jpg",
+      "marcador": "assets/markers/tikal.mind",
+      "ubicacion": "https://goo.gl/maps/...",
+      "sitioWeb": "https://institutodeantropologia...",
+      "filtro": "assets/filters/filtro-tikal.glb"
+    }
+  ]
+  
